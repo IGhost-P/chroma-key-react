@@ -76,7 +76,6 @@ function App() {
         data[i + 2] = cb;
         data[i + 3] = ca;
       }
-
       context.putImageData(imageData, 0, 0);
       requestId = requestAnimationFrame(render);
     };
